@@ -9,4 +9,5 @@ wget 'https://raw.githubusercontent.com/ss-daily-backup/dd-moeclub/master/Instal
 ```
 bash InstallNET.sh -d 9 -v 64 -a --mirror 'http://mirrors.ustc.edu.cn/debian/'
 bash InstallNET-check-cert.sh -d 9 -v 64 -a --mirror 'http://mirrors.ustc.edu.cn/debian/'
+bash InstallNET-check-cert.sh -d 9 -v 64 -a --mirror 'http://mirrors.ustc.edu.cn/debian/' --password 'Password'
 ```
