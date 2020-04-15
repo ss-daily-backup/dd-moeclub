@@ -4,8 +4,8 @@ backup for dd script at moeclub.org
 ```
 wget 'https://raw.githubusercontent.com/ss-daily-backup/dd-moeclub/master/InstallNET.sh' && chmod a+x InstallNET.sh
 
-yum install ca-certificates -y
-apt-get install ca-certificates -y
+yum install ca-certificates wget -y
+apt-get install ca-certificates wget -y
 wget 'https://raw.githubusercontent.com/ss-daily-backup/dd-moeclub/master/InstallNET-check-cert.sh' && chmod a+x InstallNET-check-cert.sh
 ```
 
